@@ -1,0 +1,26 @@
+body{
+    background-color: #FBE1BB ;
+    .caja2{
+        grid-area: caja2;
+        text-align: center;
+        .nuestro{
+            color: $maincolor;
+        }
+        .ini a{
+            color: $maincolor;
+        }
+        .ini_imagen{ 
+            width: 100%;
+            width: 270px;
+            height: 270px;
+            border-radius: 20px;
+        }
+    }
+    .caja3{
+        grid-area: caja3;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        
+    }
+}

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #FBE1BB;
+}
+body .contenedor {
+  display: grid;
+  grid-template-columns: 500px 1fr 1fr;
+  grid-template-rows: 94px 600px 110px;
+  grid-template-areas: "caja1  caja1   caja1" "caja2  caja3   caja3" "caja4  caja4   caja4";
+}
+body .contenedor .caja1 {
+  grid-area: caja1;
+}
+body .contenedor .caja1 header {
+  width: 100vw;
+}
+body .contenedor .caja1 header h1 {
+  color: #7B7779;
+  font-size: 34px;
+  background-color: orangered;
+}
+body .contenedor .caja1 header .menu {
+  color: beige;
+  list-style-type: none;
+  font-size: 18px;
+  padding-inline: 400px;
+  background-color: #A57E4A;
+  height: 50px;
+}
+body .contenedor .caja1 header .menu li {
+  display: inline;
+  margin-right: 10px;
+}
+body .contenedor .caja1 header .menu a {
+  color: beige;
+}
+
+body {
+  background-color: #FBE1BB;
+}
+body .caja2 {
+  grid-area: caja2;
+  text-align: center;
+}
+body .caja2 .nuestro {
+  color: orangered;
+}
+body .caja2 .ini a {
+  color: orangered;
+}
+body .caja2 .ini_imagen {
+  width: 100%;
+  width: 270px;
+  height: 270px;
+  border-radius: 20px;
+}
+body .caja3 {
+  grid-area: caja3;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: #FBE1BB;
+}
+body .caja4 {
+  grid-area: caja4;
+  background-color: orange;
+}
+body .caja4 footer .foter {
+  color: beige;
+}
+
+header {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=estilo.css.map */

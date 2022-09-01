@@ -1,0 +1,44 @@
+body{
+    background-color: #FBE1BB ;
+    .contenedor{
+        display: grid;
+        grid-template-columns: 500px 1fr 1fr;
+        grid-template-rows: 94px 600px  110px;
+        grid-template-areas:
+        "caja1  caja1   caja1"
+        "caja2  caja3   caja3"
+        "caja4  caja4   caja4"
+        ;
+        .caja1{
+            grid-area: caja1;
+        
+            header{
+                width: 100vw;
+                
+                h1{
+                    color: #7B7779;
+                    font-size: 34px;
+                    background-color:$maincolor;
+                }
+                .menu{
+                    color:beige;
+                   list-style-type: none;
+                   font-size: 18px;
+                   padding-inline: 400px;
+                   background-color: #A57E4A;
+                   height: 50px;
+
+                   
+                  li{
+                    display : inline;
+                    margin-right: 10px;
+                    }
+                    a{
+                        color:beige;
+                    }
+                  }
+                
+    }
+}
+    }
+}
