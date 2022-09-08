@@ -87,7 +87,7 @@ body{
 $carta: (
     body:  rgb(255, 195, 146),
     title: rgb(110, 104, 104),
-    text: rgb(100, 91, 91)
+    text: rgb(110, 102, 102)
 );
 @each $carta,$color in $carta {
     .card-#{$carta} {
