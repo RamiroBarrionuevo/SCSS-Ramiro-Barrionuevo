@@ -163,6 +163,122 @@ body .contenedor2 .cajas3 .footer {
   color: rgb(110, 102, 102);
 }
 
+.contenedor3 {
+  display: grid;
+  grid-template-columns: 500px 1fr 1fr;
+  grid-template-rows: 94px 300px 300px 110px;
+  grid-template-areas: "cajass1 cajass1 cajass1" "cajass2 cajass3 cajass4" "cajass5 cajass6 cajass7" "cajass8 cajass8 cajass8";
+}
+.contenedor3 .cajass1 {
+  grid-area: cajass1;
+}
+.contenedor3 .cajass1 header {
+  width: 100%;
+}
+.contenedor3 .cajass1 header h1 {
+  color: #7B7779;
+  font-size: 34px;
+  background-color: orangered;
+}
+.contenedor3 .cajass1 header .menu {
+  color: beige;
+  list-style-type: none;
+  font-size: 18px;
+  padding-inline: 400px;
+  background-color: #A57E4A;
+  height: 50px;
+}
+.contenedor3 .cajass1 header .menu li {
+  display: inline;
+  margin-right: 10px;
+}
+.contenedor3 .cajass1 header .menu a {
+  color: beige;
+}
+.contenedor3 .cajass2 {
+  grid-area: cajass2;
+  display: inline-block;
+  text-align: center;
+}
+.contenedor3 .cajass3 {
+  grid-area: cajass3;
+  text-align: center;
+}
+.contenedor3 .cajass4 {
+  grid-area: cajass4;
+  text-align: center;
+}
+.contenedor3 .cajass5 {
+  grid-area: cajass5;
+  text-align: center;
+}
+.contenedor3 .cajass6 {
+  grid-area: cajass6;
+  text-align: center;
+}
+.contenedor3 .cajass7 {
+  grid-area: cajass7;
+  text-align: center;
+}
+.contenedor3 .cajass8 {
+  grid-area: cajass8;
+  background-color: orange;
+}
+
+.local_imagen1 {
+  width: 230px;
+  height: 230px;
+}
+
+.local_imagen2 {
+  width: 230px;
+  height: 230px;
+}
+
+.local_imagen3 {
+  width: 230px;
+  height: 230px;
+}
+
+.local_imagen4 {
+  width: 230px;
+  height: 230px;
+}
+
+.local_imagen5 {
+  width: 230px;
+  height: 230px;
+}
+
+.local_imagen6 {
+  width: 230px;
+  height: 230px;
+}
+
+.local_imagen1 {
+  border-radius: 10px;
+}
+
+.local_imagen2 {
+  border-radius: 10px;
+}
+
+.local_imagen3 {
+  border-radius: 10px;
+}
+
+.local_imagen4 {
+  border-radius: 10px;
+}
+
+.local_imagen5 {
+  border-radius: 10px;
+}
+
+.local_imagen6 {
+  border-radius: 10px;
+}
+
 header {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;

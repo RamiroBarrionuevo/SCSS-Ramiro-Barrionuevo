@@ -1,0 +1,127 @@
+.contenedor3{
+    display: grid;
+    grid-template-columns: 500px 1fr 1fr;
+    grid-template-rows: 94px 300px 300px 110px;
+    grid-template-areas: 
+    "cajass1 cajass1 cajass1"
+    "cajass2 cajass3 cajass4"
+    "cajass5 cajass6 cajass7"
+    "cajass8 cajass8 cajass8";
+    .cajass1{
+        grid-area: cajass1;
+        header{
+            width: 100%;
+            
+            h1{
+                color: #7B7779;
+                font-size: 34px;
+                background-color:$maincolor;
+            }
+            .menu{
+                color:beige;
+               list-style-type: none;
+               font-size: 18px;
+               padding-inline: 400px;
+               background-color: #A57E4A;
+               height: 50px;
+
+               
+              li{
+                display : inline;
+                margin-right: 10px;
+                }
+                a{
+                    color:beige;
+                }
+              }
+            
+}
+
+    }
+    .cajass2{
+        grid-area: cajass2;
+        display: inline-block;
+        text-align: center;
+    }
+    .cajass3{
+        grid-area: cajass3;
+        text-align: center;
+
+    }
+    .cajass4{
+        grid-area: cajass4;
+        text-align: center;
+
+    }
+    .cajass5{
+        grid-area: cajass5;
+        text-align: center;
+
+    }
+    .cajass6{
+        grid-area: cajass6;
+        text-align: center;
+
+    }
+    .cajass7{
+        grid-area: cajass7;
+        text-align: center;
+    }
+    .cajass8{
+        grid-area: cajass8;
+        background-color: orange;
+       
+    }
+    
+}
+@mixin tamaños ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+.local_imagen1{
+    @include tamaños(230px, 230px,)
+
+
+}
+.local_imagen2{
+    @include tamaños(230px, 230px)
+
+}
+.local_imagen3{
+    @include tamaños(230px, 230px)
+
+}
+.local_imagen4{
+    @include tamaños(230px, 230px)
+
+}
+.local_imagen5{
+    @include tamaños(230px, 230px)
+
+}
+.local_imagen6{
+    @include tamaños(230px, 230px)
+
+}
+@mixin radius ($radius){
+    border-radius: $radius;
+    
+}
+.local_imagen1{
+    @include radius(10px)
+}
+.local_imagen2{
+    @include radius(10px)
+}
+.local_imagen3{
+    @include radius(10px)
+}
+.local_imagen4{
+    @include radius(10px)
+}
+.local_imagen5{
+    @include radius(10px)
+}
+.local_imagen6{
+    @include radius(10px)
+}
