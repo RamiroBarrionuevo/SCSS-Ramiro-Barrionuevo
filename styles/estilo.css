@@ -152,7 +152,7 @@ body .contenedor2 .cajas3 .footer {
 }
 
 .card-body {
-  color: rgb(255, 195, 146);
+  color: white;
 }
 
 .card-title {
@@ -161,6 +161,10 @@ body .contenedor2 .cajas3 .footer {
 
 .card-text {
   color: rgb(110, 102, 102);
+}
+
+h3 {
+  color: white;
 }
 
 .contenedor3 {
