@@ -79,6 +79,78 @@ body .caja4 footer .foter {
   color: white;
 }
 
+body {
+  background-color: #FBE1BB;
+}
+body .contenedor2 {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  grid-template-rows: 94px 190vh;
+  grid-template-areas: "cajas1  cajas1" "cajas2  cajas2" "cajas3  cajas3";
+}
+body .contenedor2 .cajas1 {
+  grid-area: cajas1;
+  background-color: orangered;
+}
+body .contenedor2 .cajas1 header {
+  width: 100%;
+}
+body .contenedor2 .cajas1 header h1 {
+  color: #7B7779;
+  font-size: 34px;
+  background-color: orangered;
+}
+body .contenedor2 .cajas1 header .menu {
+  color: beige;
+  list-style-type: none;
+  font-size: 20px;
+  padding-inline: 350px;
+  background-color: #A57E4A;
+  height: 50px;
+}
+body .contenedor2 .cajas1 header .menu li {
+  display: inline;
+  margin-right: 10px;
+}
+body .contenedor2 .cajas1 header .menu a {
+  color: beige;
+}
+body .contenedor2 .cajas2 {
+  grid-area: cajas2;
+  background-color: #FBE1BB;
+}
+body .contenedor2 .cajas2 h2 {
+  color: orangered;
+  text-align: center;
+}
+body .contenedor2 .cajas2 .cards-wrapperd {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+body .contenedor2 .cajas2 .cards-wrapperd .card {
+  margin: 0 0.5em;
+  width: 20%;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body .contenedor2 .cajas2 .cards-wrapperd .card .card-body {
+  background-color: rgb(255, 195, 146);
+  border-radius: 5px;
+}
+body .contenedor2 .cajas3 {
+  grid-area: cajas3;
+  background-color: orange;
+  font-size: 20px;
+}
+body .contenedor2 .cajas3 .footer {
+  color: beige;
+  font-size: 20px;
+}
+
 header {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
