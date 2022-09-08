@@ -62,8 +62,9 @@ body{
             margin-top: 50px;
             margin-bottom: 50px;
             .card-body{
-                background-color: rgb(255, 195, 146);
+            background-color: rgb(255, 195, 146),;
                 border-radius: 5px;
+                
                
             }
         }
@@ -82,4 +83,15 @@ body{
     
 }
     }
+}
+$carta: (
+    body:  rgb(255, 195, 146),
+    title: rgb(110, 104, 104),
+    text: rgb(100, 91, 91)
+);
+@each $carta,$color in $carta {
+    .card-#{$carta} {
+      color: $color ;
+    }
+    
 }

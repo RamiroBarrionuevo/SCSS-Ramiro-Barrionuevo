@@ -151,6 +151,18 @@ body .contenedor2 .cajas3 .footer {
   font-size: 20px;
 }
 
+.card-body {
+  color: rgb(255, 195, 146);
+}
+
+.card-title {
+  color: rgb(110, 104, 104);
+}
+
+.card-text {
+  color: rgb(100, 91, 91);
+}
+
 header {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
